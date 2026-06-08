@@ -9,3 +9,4 @@ bin = ["bin/mise.exe"]
 [architecture.x64]
 url = "https://github.com/jdx/mise/releases/download/v2026.6.1/mise-v2026.6.1-windows-x64.zip"
 hash = "sha256:c7069e7cc2356c7eab50ad912cc44b6ba923d20c3b42c8dea62de6c7623abc7d"
+extract_dir = "mise"
