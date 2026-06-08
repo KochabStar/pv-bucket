@@ -1,0 +1,12 @@
+name = "lua"
+version = "5.4.8-1"
+description = "A powerful, efficient, lightweight, embeddable scripting language."
+homepage = "https://www.lua.org"
+license = "MIT"
+type = "archive"
+bin = ["bin\\lua.exe", "bin\\luac.exe"]
+
+[architecture.x64]
+url = "https://mirror.msys2.org/mingw/clang64/mingw-w64-clang-x86_64-lua-5.4.8-1-any.pkg.tar.zst"
+hash = "sha256:18d6fb9747d174a8707ad875c8c7fa1d7872a42af95beedd6837911a9df9cb82"
+extract_dir = "clang64"

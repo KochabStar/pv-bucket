@@ -1,0 +1,12 @@
+name = "claude-code-router"
+version = "2.0.0"
+description = "Route Claude Code requests to different models and customize any request"
+homepage = "https://github.com/musistudio/claude-code-router"
+license = "MIT"
+type = "installer"
+installer = "npm"
+bin = ["ccr"]
+
+[architecture.x64]
+url = "npm:@musistudio/claude-code-router"
+hash = "sha256:"

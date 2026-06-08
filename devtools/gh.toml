@@ -1,0 +1,11 @@
+name = "gh"
+version = "2.93.0"
+description = "Official GitHub CLI"
+homepage = "https://cli.github.com"
+license = "MIT"
+type = "archive"
+bin = ["bin\\gh.exe"]
+
+[architecture.x64]
+url = "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_amd64.zip"
+hash = "sha256:77aa01ed7317295ad550de0ad04f3f276b1ef0e9272e3d002ac28dd99853d211"

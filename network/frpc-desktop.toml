@@ -1,0 +1,11 @@
+name = "frpc-desktop"
+version = "1.2.6"
+description = "frp跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有frp版本"
+homepage = "https://jwinks.com/p/frp/"
+license = "MIT"
+type = "archive"
+bin = ["Frpc-Desktop.exe"]
+
+[architecture.x64]
+url = "https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.6/Frpc-Desktop-1.2.6.exe#/dl.7z"
+hash = "sha256:6fb63b87491522b5cae1e49d8163a9cce7e80d9c4ec1515b34fa7844283cca75"

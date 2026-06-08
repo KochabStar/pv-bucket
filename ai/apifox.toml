@@ -1,0 +1,11 @@
+name = "apifox"
+version = "2.8.33"
+description = "All-in-one collaboration platform for API documentation, API debugging, API Mock and API test automation."
+homepage = "https://apifox.com"
+license = "Freeware"
+type = "archive"
+bin = ["Apifox.exe"]
+
+[architecture.x64]
+url = "https://file-assets.apifox.com/download/2.8.33/Apifox-2.8.33.exe#/dl.7z"
+hash = "sha256:sha512:1a9910d6cb54502363ee25b59399c41b9a3ea8342c5c1d92ea90e85d951d61577533c339d9a23da8e35fea0010182498a2b1ead8cf99aeb17184ff4db035e229"

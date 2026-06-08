@@ -1,0 +1,11 @@
+name = "bbdown"
+version = "1.6.3"
+description = "A CLI-based Bilibili downloader."
+homepage = "https://github.com/nilaoda/BBDown"
+license = "MIT"
+type = "archive"
+bin = ["BBDown.exe"]
+
+[architecture.x64]
+url = "https://github.com/nilaoda/BBDown/releases/download/1.6.3/BBDown_1.6.3_20240814_win-x64.zip"
+hash = "sha256:40f1e2af0d4e74df765c6f93d2e931f9bea201d5168d0bc62dc35a54b7e0ec02"

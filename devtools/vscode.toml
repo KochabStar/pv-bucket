@@ -1,0 +1,11 @@
+name = "vscode"
+version = "1.123.0"
+description = "Lightweight but powerful source code editor"
+homepage = "https://code.visualstudio.com/"
+license = "Freeware"
+type = "archive"
+bin = ["code.exe"]
+
+[architecture.x64]
+url = "https://update.code.visualstudio.com/1.123.0/win32-x64-archive/stable#/dl.7z"
+hash = "sha256:a3c48cec23c7b2bebec82e2716c0979372da28d5d0e7fa9e3cc36b6051ff0c9d"

@@ -1,0 +1,12 @@
+name = "playwright"
+version = "1.60.0"
+description = "A high-level API to automate web browsers"
+homepage = "https://playwright.dev"
+license = "Apache-2.0"
+type = "installer"
+installer = "npm"
+bin = ["playwright"]
+
+[architecture.x64]
+url = "npm:playwright"
+hash = "sha256:"

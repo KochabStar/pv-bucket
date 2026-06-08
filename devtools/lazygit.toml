@@ -1,0 +1,11 @@
+name = "lazygit"
+version = "0.62.2"
+description = "A simple terminal UI for git commands"
+homepage = "https://github.com/jesseduffield/lazygit"
+license = "MIT"
+type = "archive"
+bin = ["lazygit.exe"]
+
+[architecture.x64]
+url = "https://github.com/jesseduffield/lazygit/releases/download/v0.62.2/lazygit_0.62.2_Windows_x86_64.zip"
+hash = "sha256:805bfcb2445273b77a32b7758dfb5d2d8dbd7b80b7336ab868935584a2fad0ba"

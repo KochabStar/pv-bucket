@@ -1,0 +1,11 @@
+name = "pot"
+version = "3.0.7"
+description = "A powerful text selection translation and OCR software"
+homepage = "https://pot-app.com"
+license = "GPL-3.0-only"
+type = "archive"
+bin = ["pot.exe"]
+
+[architecture.x64]
+url = "https://github.com/pot-app/pot-desktop/releases/download/3.0.7/pot_3.0.7_x64-setup.exe#/dl.7z"
+hash = "sha256:0a6ac5309bfc41234d58cf6615a779c66d167d3a0da5542a0de2ea118fc6bc56"

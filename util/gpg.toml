@@ -1,0 +1,11 @@
+name = "gpg"
+version = "2.5.20"
+description = "A complete and free implementation of the OpenPGP standard."
+homepage = "https://www.gnupg.org/"
+license = "GPL-3.0-or-later"
+type = "archive"
+bin = ["gpg.exe"]
+
+[architecture.x64]
+url = "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.5.20_20260513.exe#/dl.7z"
+hash = "sha256:sha1:6353c4a98c07b29250ce21ba0321e0d2abd7d1cb"

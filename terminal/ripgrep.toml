@@ -1,0 +1,12 @@
+name = "ripgrep"
+version = "15.1.0"
+description = "Recursively searches directories for a regex pattern."
+homepage = "https://github.com/BurntSushi/ripgrep"
+license = "MIT"
+type = "archive"
+bin = ["rg.exe"]
+
+[architecture.x64]
+url = "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-pc-windows-msvc.zip"
+hash = "sha256:124510b94b6baa3380d051fdf4650eaa80a302c876d611e9dba0b2e18d87493a"
+extract_dir = "ripgrep-15.1.0-x86_64-pc-windows-msvc"

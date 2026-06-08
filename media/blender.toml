@@ -1,0 +1,12 @@
+name = "blender"
+version = "5.1.2"
+description = "3D creation suite"
+homepage = "https://www.blender.org"
+license = "GPL-3.0-or-later"
+type = "archive"
+bin = ["blender-launcher.exe", "blender.exe"]
+
+[architecture.x64]
+url = "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.zip"
+hash = "sha256:345bedea7b0acf7cc9666423d8553f9129622aea34ded65c23e8cb70f83f14ff"
+extract_dir = "blender-5.1.2-windows-x64"

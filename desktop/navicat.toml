@@ -1,0 +1,8 @@
+name = "navicat"
+version = "12.0.22"
+type = "archive"
+bin = ["navicat.exe"]
+
+[architecture.x64]
+url = "https://scoop-zapps.ziiyc.com/d/NavicatPremium/NavicatPremium-12.0.22.0.7z"
+hash = "sha256:a3267cd4b934c636b153bafcfd5ce3c70d30333ba16471b5b2bc40d3d4832a0f"

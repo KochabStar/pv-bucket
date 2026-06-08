@@ -1,0 +1,12 @@
+name = "quarkpan"
+version = "3.23.2"
+description = "夸克网盘 电脑高效拍档 一键存爽快看"
+homepage = "https://pan.quark.cn/"
+license = "Proprietary"
+type = "installer"
+installer = "innosetup"
+bin = ["QuarkCloudDrive.exe"]
+
+[architecture.x64]
+url = "https://sw.pcmgr.qq.com/66117d0700bc80aa0ca36d6d6072af80/6a1ec956/spcmgr/download/QuarkCloudDrivePC_V6.8.5.741_pc_pf30001_(zh-cn)_release_(Build2999636-1000-x64).exe"
+hash = "sha256:fd0a671561345c830f292e1f0e168fa1761670dcf1641c5120308682f20b80e1"

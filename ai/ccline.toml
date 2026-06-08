@@ -1,0 +1,11 @@
+name = "ccline"
+version = "1.1.2"
+description = "High-performance Claude Code StatusLine tool"
+homepage = "https://github.com/Haleclipse/CCometixLine"
+license = "MIT"
+type = "archive"
+bin = ["ccline.exe"]
+
+[architecture.x64]
+url = "https://github.com/Haleclipse/CCometixLine/releases/download/v1.1.2/ccline-windows-x64.zip"
+hash = "sha256:afb7eb504b5c6d266a9364797060d147e28ab25396a6457c512a2e7741951480"

@@ -1,0 +1,11 @@
+name = "go"
+version = "1.26.4"
+description = "An open source programming language that makes it easy to build simple, reliable, and efficient software."
+homepage = "https://golang.org"
+license = "BSD-3-Clause"
+type = "archive"
+bin = ["bin\\go.exe", "bin\\gofmt.exe"]
+
+[architecture.x64]
+url = "https://dl.google.com/go/go1.26.4.windows-amd64.zip"
+hash = "sha256:3ca8fb4630b07c419cbdd51f754e31363cfcfb83b3a5354d9e895c90be2cc345"

@@ -1,0 +1,11 @@
+name = "googlechrome-dev"
+version = "151.0.7872.0"
+description = "Fast, secure, and free web browser, built for the modern web."
+homepage = "https://www.google.com/chrome/dev"
+license = "Freeware"
+type = "archive"
+bin = ["chrome.exe"]
+
+[architecture.x64]
+url = "https://dl.google.com/release2/chrome/h45xpatikhv7wjuopcjxt7city_151.0.7872.0/151.0.7872.0_chrome_installer_uncompressed.exe#/dl.7z"
+hash = "sha256:f608a9ae5fad51a69a61808e7a43eefa699e576d17c2154359fe6f71b5a94b4d"

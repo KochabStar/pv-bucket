@@ -1,0 +1,13 @@
+name = "7zip"
+version = "26.01"
+description = "A multi-format file archiver with high compression ratios."
+homepage = "https://www.7-zip.org"
+license = "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later"
+type = "installer"
+installer = "msi"
+bin = ["7z.exe", "7zG.exe", "7zFM.exe"]
+
+[architecture.x64]
+url = "https://github.com/ip7z/7zip/releases/download/26.01/7z2601-x64.msi"
+hash = "sha256:a47ea8dcf8bc08e6de474cae77c828e031fa22cb528f6095defffebf11cd02f2"
+extract_dir = "Files\\7-Zip"

@@ -1,0 +1,11 @@
+name = "git"
+version = "2.54.0"
+description = "A free and open source distributed version control system."
+homepage = "https://gitforwindows.org"
+license = "GPL-2.0-only"
+type = "archive"
+bin = ["bin\\sh.exe", "bin\\git.exe", "git-bash.exe", "usr\\bin\\gpg.exe", "usr\\bin\\gpg-agent.exe", "usr\\bin\\gpgconf.exe", "usr\\bin\\gpg-connect-agent.exe", "usr\\bin\\pinentry.exe"]
+
+[architecture.x64]
+url = "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe#/dl.7z"
+hash = "sha256:bea006a6cc69673f27b1647e84ab3a68e912fbc175ab6320c5987e012897f311"
