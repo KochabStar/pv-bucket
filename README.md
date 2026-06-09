@@ -34,3 +34,14 @@ pv install ripgrep
 ## 贡献
 
 添加新包请提交 PR，manifest 格式参考现有 `.toml` 文件。
+
+## 自动更新
+
+仓库每天通过 GitHub Actions 检查一次 GitHub Releases 来源的 manifest。脚本只会在满足以下条件时自动更新并提交：
+
+- 当前下载地址是 `github.com/<owner>/<repo>/releases/download/...`。
+- 最新 release 能解析出新版本号。
+- 最新 release 中存在与当前 Windows 资源同名模式匹配的 asset。
+- 资源可以成功下载并计算 `sha256`。
+
+无法安全判断的包会跳过并保留在 Actions 日志中，不会自动改写 manifest。

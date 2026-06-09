@@ -1,0 +1,36 @@
+name: Auto update manifests
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout bucket
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+
+      - name: Update GitHub release manifests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_github_releases.py --root .
+
+      - name: Commit manifest updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(bucket): auto update manifests"
+          file_pattern: "**/*.toml"
