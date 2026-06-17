@@ -1,5 +1,5 @@
 name = "mise"
-version = "2026.6.10"
+version = "2026.6.11"
 description = "Polyglot tool version manager and task runner"
 homepage = "https://mise.jdx.dev/"
 license = "MIT"
@@ -7,6 +7,6 @@ type = "archive"
 bin = ["bin/mise.exe"]
 
 [architecture.x64]
-url = "https://github.com/jdx/mise/releases/download/v2026.6.10/mise-v2026.6.10-windows-x64.zip"
-hash = "sha256:cfdc9d11ceae211220bf68514c1d7fc67374a26cfbfb62ffeed10922cc1f6ec7"
+url = "https://github.com/jdx/mise/releases/download/v2026.6.11/mise-v2026.6.11-windows-x64.zip"
+hash = "sha256:ae6fa8c6d88f4d368e589b6c9936c09f552cda717600123369dca007ced33ecc"
 extract_dir = "mise"
