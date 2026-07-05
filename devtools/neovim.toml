@@ -1,5 +1,5 @@
 name = "neovim"
-version = "0.12.3"
+version = "0.12.4"
 description = "Vim-fork focused on extensibility and usability"
 homepage = "https://neovim.io/"
 license = "Apache-2.0,Vim"
@@ -7,6 +7,6 @@ type = "archive"
 bin = ["bin\\nvim.exe", "bin\\xxd.exe"]
 
 [architecture.x64]
-url = "https://github.com/neovim/neovim/releases/download/v0.12.3/nvim-win64.zip"
-hash = "sha256:63daa0a0374f2255d2fb4c0867fcacc64a09c8d7ec1c349f781aff1b8350a8ad"
+url = "https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-win64.zip"
+hash = "sha256:9fc3572829ffd13debb6e32555da2c8cc02555568260a9fc4cf1f65bbcca319c"
 extract_dir = "nvim-win64"
