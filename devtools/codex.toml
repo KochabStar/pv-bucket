@@ -1,5 +1,5 @@
 name = "codex"
-version = "0.143.0"
+version = "0.144.0"
 description = "OpenAI's Codex AI coding assistant"
 homepage = "https://github.com/openai/codex"
 license = "Apache-2.0"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["codex.exe"]
 
 [architecture.x64]
-url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-x86_64-pc-windows-msvc.exe#/codex.exe"
-hash = "sha256:5728e3ddf1480103bad235560e95cf7764ea3069f06029f9b2f39eb74a8066f6"
+url = "https://github.com/openai/codex/releases/download/rust-v0.144.0/codex-x86_64-pc-windows-msvc.exe#/codex.exe"
+hash = "sha256:2b3c18d9393ed794531ae3da13f43a6de3bcd91dc577222bd31a17c59f7de0aa"
