@@ -1,5 +1,5 @@
 name = "cherry-studio"
-version = "1.9.13"
+version = "2.0.0"
 description = "A desktop client that supports for multiple LLM providers."
 homepage = "https://cherry-ai.com"
 license = "Apache-2.0"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["cherry-studio.exe"]
 
 [architecture.x64]
-url = "https://github.com/CherryHQ/cherry-studio/releases/download/v1.9.13/Cherry-Studio-1.9.13-x64-portable.exe#/cherry-studio.exe"
-hash = "sha256:3fb4057063176fe0d888099be4056edb706c3f5bb46c957432b0b7dde4b5657a"
+url = "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.0/Cherry-Studio-2.0.0-x64-portable.exe#/cherry-studio.exe"
+hash = "sha256:eb1806cc41ec44f7399099914f4f2d4c743d894292246e69c73f82e52f12f7cf"
