@@ -1,5 +1,5 @@
 name = "cc-switch"
-version = "3.19.1"
+version = "3.19.2"
 description = "A desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI."
 homepage = "https://github.com/farion1231/cc-switch"
 license = "MIT"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["cc-switch.exe"]
 
 [architecture.x64]
-url = "https://github.com/farion1231/cc-switch/releases/download/v3.19.1/CC-Switch-v3.19.1-Windows-Portable.zip"
-hash = "sha256:aaefbadc03e6a9d4797d22ef22214a050bce1d8a0d73583bb407ac001ab92f5e"
+url = "https://github.com/farion1231/cc-switch/releases/download/v3.19.2/CC-Switch-v3.19.2-Windows-Portable.zip"
+hash = "sha256:1fdab9227b40c9f37097d021cb357a922fddedcd0b1853f7f7c5663922da7c1a"
