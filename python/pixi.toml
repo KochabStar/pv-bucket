@@ -1,5 +1,5 @@
 name = "pixi"
-version = "0.76.2"
+version = "0.77.0"
 description = "Package management made easy"
 homepage = "https://pixi.sh"
 license = "BSD-3-Clause"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["pixi.exe"]
 
 [architecture.x64]
-url = "https://github.com/prefix-dev/pixi/releases/download/v0.76.2/pixi-x86_64-pc-windows-msvc.zip"
-hash = "sha256:8e948f6b67104be30509ab7d91ac1878fdb7920e57e8b433dbfb7297468b102d"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.77.0/pixi-x86_64-pc-windows-msvc.zip"
+hash = "sha256:335b8a14ed4fca76f2dc285550adf4cbda4c21ca59f96d3a5aa73fdae2cec349"
