@@ -1,5 +1,5 @@
 name = "oh-my-pi"
-version = "18.4.9"
+version = "18.4.12"
 description = "AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more (fork of pi)."
 homepage = "https://github.com/can1357/oh-my-pi"
 license = "MIT"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["omp.exe"]
 
 [architecture.x64]
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.4.9/omp-windows-x64.exe#/omp.exe"
-hash = "sha256:991348ba6dfec66a907cc42f8dec868029db906ba40910a566f63f659bdeede5"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.4.12/omp-windows-x64.exe#/omp.exe"
+hash = "sha256:41f749a49d99fbc7daa8dfd571c20b396f4cfd4b2cd16735624bc416137f67ab"
