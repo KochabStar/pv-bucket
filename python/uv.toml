@@ -1,5 +1,5 @@
 name = "uv"
-version = "0.12.22"
+version = "0.12.23"
 description = "An extremely fast Python package installer and resolver, written in Rust."
 homepage = "https://docs.astral.sh/uv/"
 license = "Apache-2.0|MIT"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["uv.exe", "uvx.exe", "uvw.exe"]
 
 [architecture.x64]
-url = "https://github.com/astral-sh/uv/releases/download/0.12.22/uv-x86_64-pc-windows-msvc.zip"
-hash = "sha256:ea1397797a0ca15f63516dd0f49c2dde9776db9be5861cab152ebe8ad199894d"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-x86_64-pc-windows-msvc.zip"
+hash = "sha256:75d05de6762778c31ee183398de7dd15093fad0ed90b1f236d8205ea5ec00c90"
