@@ -1,5 +1,5 @@
 name = "psmux"
-version = "3.3.8"
+version = "3.4.0"
 description = "Terminal multiplexer for Windows - tmux alternative for PowerShell and Windows Terminal"
 homepage = "https://psmux.pages.dev"
 license = "MIT"
@@ -7,5 +7,5 @@ type = "archive"
 bin = ["psmux.exe", "pmux.exe", "tmux.exe"]
 
 [architecture.x64]
-url = "https://github.com/psmux/psmux/releases/download/v3.3.8/psmux-v3.3.8-windows-x64.zip"
-hash = "sha256:1ad127ba937194a890b933a73d9b023e297bd73dc742abd841bf159984c2effe"
+url = "https://github.com/psmux/psmux/releases/download/v3.4.0/psmux-v3.4.0-windows-x64.zip"
+hash = "sha256:a66b6be7c13c6fa0dc3660a267b9e34eaa91a4eb7f07fbd55a0468018bd0f721"
